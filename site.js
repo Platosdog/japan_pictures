@@ -1,9 +1,12 @@
 
 function getPictures(){
 
-    var values = ["test","values","go","here"],
+    var values = ["06.jpg","42.jpg","78.jpg","95.jpg"],
     valueToUse = values[Math.floor(Math.random() * values.length)];
-// do something with the selected value
-alert(valueToUse);
+
+    console.log(valueToUse); 
+    
+
+    document.getElementById("pictures").style.backgroundImage = 'url(' + valueToUse + ')';
 
 }
