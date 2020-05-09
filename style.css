@@ -2,9 +2,11 @@ html {
   background: url(614.jpeg) no-repeat center center fixed; 
   background-size: cover;
   text-align: center;
+  
 } 
 
 div {
+    background-size: auto;
     border-style: outset;
     margin: 5px auto;
     padding: 5px;
@@ -12,6 +14,7 @@ div {
     text-align: center;
     font-size:25px;
     background-position: center;
+    height: 500px;
     
   } 
 
