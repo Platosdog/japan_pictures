@@ -8,11 +8,11 @@ html {
 div {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: contain; 
+  background-size: cover;
   border-style: outset;
   margin: 5px auto;
   padding: 5px;
-  background-size: contain;
   text-align: center;
   font-size:25px;
   height: 500px;
