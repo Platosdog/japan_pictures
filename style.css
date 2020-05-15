@@ -11,7 +11,7 @@ div {
   border-style: outset;
   margin: 5px auto;
   padding: 5px;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
   font-size:25px;
   background-position: center;
