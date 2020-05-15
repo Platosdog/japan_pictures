@@ -7,6 +7,6 @@ function getPictures(){
     console.log(valueToUse); 
     
 
-    document.getElementById("pictures").style.backgroundImage = 'url(' + valueToUse + ')';
+    document.getElementById("picture").style.backgroundImage = 'url(' + valueToUse + ')';
 
 }

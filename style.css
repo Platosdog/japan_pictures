@@ -8,13 +8,11 @@ html {
 div {
   
     border-style: outset;
-    padding: 5px;
-    background-size: cover;
     text-align: center;
     font-size:25px;
-    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 500px;
-    width: 709;
     
   } 
 
